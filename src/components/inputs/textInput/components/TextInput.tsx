@@ -54,6 +54,7 @@ export const TextInput = (props: Props) => {
         "z-index": 1000,
         "background-color": props.backgroundColor ?? defaultBackgroundColor,
         color: props.textColor ?? defaultTextColor,
+        "border-radius": "8px",
       }}
       onKeyDown={submitWhenEnter}
     >

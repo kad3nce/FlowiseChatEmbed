@@ -15,7 +15,10 @@ export const ShortTextInput = (props: ShortTextInputProps) => {
       ref={props.ref}
       class="focus:outline-none bg-transparent px-2 py-2 flex-1 w-full text-input"
       type="text"
-      style={{ "font-size": props.fontSize ? `${props.fontSize}px` : "16px" }}
+      style={{
+        "font-size": props.fontSize ? `${props.fontSize}px` : "16px",
+        "font-weight": 600,
+      }}
       onInput={(e) => local.onInput(e.currentTarget.value)}
       {...others}
     />
