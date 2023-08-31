@@ -55,6 +55,7 @@ export const TextInput = (props: Props) => {
         "background-color": props.backgroundColor ?? defaultBackgroundColor,
         color: props.textColor ?? defaultTextColor,
         "border-radius": "8px",
+        "align-items": "center",
       }}
       onKeyDown={submitWhenEnter}
     >
